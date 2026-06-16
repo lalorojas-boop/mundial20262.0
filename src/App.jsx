@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const BASE = "/api/competitions/WC";
+const BASE = "/api/proxy/competitions/WC";
 const HEADERS = {};
 
 const BROADCASTER_STYLE = {
