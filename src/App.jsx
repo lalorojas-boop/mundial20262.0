@@ -1,8 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
-const API_KEY = "08b94a5548b348d4b1c4c089205114f5";
-const BASE = "https://api.football-data.org/v4/competitions/WC";
-const HEADERS = { "X-Auth-Token": API_KEY };
+const BASE = "/api/competitions/WC";
+const HEADERS = {};
 
 const BROADCASTER_STYLE = {
   "Canal 5":       { bg: "#1a56a0", text: "#fff", label: "C5" },
