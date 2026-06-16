@@ -98,7 +98,7 @@ function ScoreCard({ match, expanded, onToggle }) {
   const showScore  = isLive || isFinished || (hScore != null && aScore != null);
   const group  = match.group ? match.group.replace("GROUP_","") : null;
   const stage  = match.stage || "";
-  const isKnockout = !stage.includes("GROUP");
+const isKnockout = !stage.includes("GROUP");
   const utc = match.utcDate;
   const minute = match.minute || null;
 
