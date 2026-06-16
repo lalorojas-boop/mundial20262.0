@@ -1,6 +1,9 @@
-const BASE = "/api/competitions/WC";
+import { useState, useEffect, useCallback } from "react";
 
 const BASE = "/api/competitions/WC";
+const HEADERS = {};
+
+const BROADCASTER_STYLE = {
 const HEADERS = {};
 
 const BROADCASTER_STYLE = {
